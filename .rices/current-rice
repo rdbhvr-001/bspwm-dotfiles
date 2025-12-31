@@ -1,0 +1,3 @@
+#!/bin/bash
+
+crtrice=$(cat ~/.rices/.rice)

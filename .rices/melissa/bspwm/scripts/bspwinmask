@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+
+##################################################
+# RDBHVR - 2026
+##################################################
+
+masked=$(bspc query -N -n .hidden -d focused)
+
+if [ -z "$masked" ]; then
+	bspc node focused -g hidden=on
+	notify-send "BSPWM Detective" "You just hid a window. Never forget to unhide it and try surfing in google about a <b>lost window</b>..." -u "low"
+else
+	bspc node "$masked" -g hidden=off
+	notify-send "BSPWM Detective" "You unlocked a treasure from temple run. <b>Window recovered</b>..." -u "low"
+fi

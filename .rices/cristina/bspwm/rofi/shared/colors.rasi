@@ -1,0 +1,9 @@
+* {
+    background:     #1f1d29;   /* unchanged */
+    background-alt: #242839;   /* unchanged */
+    foreground:     #cdd6f4;   /* unchanged */
+
+    selected:       #bca0df;   /* clean violet highlight */
+    active:         #b4befe;   /* green neon stays – fits your spectrum */
+    urgent:         #f38ba8;   /* cyan-based alert, no magenta */
+}

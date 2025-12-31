@@ -1,0 +1,275 @@
+/* ~/.config/deadd/deadd.css */
+/* Nord theme notification center - official deadd class selectors */
+
+/* Notification center */
+
+.blurredBG, #main_window, .blurredBG.low, .blurredBG.normal {
+    background: #1e1e2e;
+}
+
+#main_window {
+    color: #eceff4;
+    padding: 50px;
+}
+
+.notification {
+    padding: 2px;
+}
+
+.noti-center.time {
+    font-size: 40px;
+    color: #88c0d0;
+}
+
+.noti-center.date {
+    color: #81a1c1;
+    font-size: 20px;
+}
+
+.noti-center.delete-all {
+    color: #eceff4;
+}
+
+/* Notifications */
+
+.title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #eceff4;
+}
+
+.appname {
+    font-size: 10px;
+    color: #eceff4;
+}
+
+.time {
+    font-size: 10px;
+    color: #eceff4;
+}
+
+.body {
+    font-size: 12px;
+    color: #eceff4;
+}
+
+.blurredBG.notification {
+    background: rgba(37, 44, 59, 0.95);
+}
+
+.blurredBG.notification:hover {
+    background: #434c5e;
+}
+
+.blurredBG.notification.critical {
+    background: #3b4252;
+}
+
+.notificationInCenter {
+    background: #1f1d29;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.notificationInCenter:nth-child(odd) {
+    border-bottom:1px dotted #4c566a;
+}
+
+.notificationInCenter:nth-child(even) {
+    border-bottom:1px dotted #4c566a;
+}
+
+.notificationInCenter:hover {
+    background: #434c5e;
+}
+
+.notificationInCenter.critical {
+    border-left: 5px solid red;
+}
+
+.notificationInCenter.low {
+    border-left: 5px solid #91bb74;
+}
+
+.notificationInCenter.normal {
+    border-left: 5px solid #4c566a;
+}
+
+
+/* Labels */
+
+label {
+    color: #eceff4;
+}
+
+label.notification {
+    color: #eceff4;
+}
+
+label.critical {
+    color: #eceff4;
+}
+
+.notificationInCenter label.critical {
+    color: #eceff4;
+}
+
+label.deadd-noti-center.notification.appname {
+    color: #eceff4;
+    font-size: 12px;
+}
+
+label.deadd-noti-center.notification.body {
+    color: #eceff4;
+    font-size: 14px;
+}
+
+label.deadd-noti-center.notification.title {
+    color: #eceff4;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+label.deadd-noti-center.in-center.appname {
+    color: #eceff4;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+label.deadd-noti-center.in-center.body {
+    color: #eceff4;
+    font-size: 11px;
+}
+
+label.deadd-noti-center.in-center.title {
+    color: #eceff4;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+label.deadd-noti-center.in-center.time {
+    color: #eceff4;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+label.deadd-noti-center.noti-center.time {
+    color: #88c0d0;
+    font-size: 32px;
+}
+
+label.deadd-noti-center.noti-center.date {
+    color: #81a1c1;
+    font-size: 10px;
+}
+
+label.deadd-noti-center.noti-center.delete-all {
+    color: #eceff4;
+    font-size: 8px;
+}
+
+/* Buttons */
+
+button {
+    background: transparent;
+    color: #eceff4;
+    border-radius: 3px;
+    border-width: 0px;
+    background-position: 0px 0px;
+    text-shadow: none;
+}
+
+button:hover {
+    border-radius: 3px;
+    background: #434c5e;
+    border-width: 0px;
+    border-top: transparent;
+    border-color: #88c0d0;
+    color: #eceff4;
+}
+
+button.deadd-noti-center.in-center.button-close {
+    background: transparent;
+    color: #eceff4;
+}
+
+button.deadd-noti-center.in-center.button-close:hover {
+    background: #434c5e;
+    color: #88c0d0;
+}
+
+/* Custom Buttons */
+
+.userbutton {
+    background: #2e3440;
+}
+
+.userbuttonlabel {
+    color: #eceff4;
+    font-size: 12px;
+}
+
+.userbutton:hover {
+    background: #434c5e;
+}
+
+.userbuttonlabel:hover {
+    color: #88c0d0;
+}
+
+button.buttonState1 {
+    background: #3b4252;
+}
+
+.userbuttonlabel.buttonState1 {
+    color: #eceff4;
+}
+
+button.buttonState1:hover {
+    background: #434c5e;
+}
+
+.userbuttonlabel.buttonState1:hover {
+    color: #88c0d0;
+}
+
+button.buttonState2 {
+    background: #2e3440;
+}
+
+.userbuttonlabel.buttonState2 {
+    color: #eceff4;
+}
+
+button.buttonState2:hover {
+    background: #434c5e;
+}
+
+.userbuttonlabel.buttonState2:hover {
+    color: #88c0d0;
+}
+
+/* Images */
+
+image.deadd-noti-center.notification.image {
+    margin-left: 20px;
+    min-height: 104px;
+    border-radius: 4px;
+    min-width: 104px;
+}
+
+image.deadd-noti-center.notification.icon {
+    border-radius: 4px;
+}
+
+image.deadd-noti-center.in-center.image {
+    margin-left: 20px;
+    border-radius: 4px;
+    min-height: 104px;
+    min-width: 104px;
+}
+
+image.deadd-noti-center.in-center.icon {
+    border-radius: 4px;
+}
