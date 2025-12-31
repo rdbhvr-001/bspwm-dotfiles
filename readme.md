@@ -32,11 +32,64 @@ Follow the instructions given below to install this bspwm environment
 - You may have to install the additional fonts if you run into some problem. (which is mostly unlikely to happen)
 ## Instructions
 Follow these steps as it is.
-1) **Clone this repository :** `git clone https://github.com/rdbhvr-001/bspwm-dotfiles.git rdbhvr-dotfiles`
-2) **Change Directory :** `cd rdbhvr-dotfiles`
-3) **Paranoids can have a look at scripts :** `cat deps.sh; cat setup.sh`
-4) **Have executable permission :** `chmod +x setup.sh` (if not already executable)
-5) **Execute and have a coffee :** `./setup.sh`
-6) Once your coffee cup turns empty, you are ready to use the freshly set up bspwm environment.
+**Clone this repository :** 
+```
+git clone https://github.com/rdbhvr-001/bspwm-dotfiles.git rdbhvr-dotfiles
+```
+**Change Directory :** 
+```
+cd rdbhvr-dotfiles
+```
+**Paranoids can have a look at scripts :** 
+```
+cat deps.sh; cat setup.sh
+```
+**Have executable permission :** 
+```
+chmod +x setup.sh
+``` 
+(if not already executable)
+**Execute and have a coffee :** 
+```
+./setup.sh
+```
+Once your coffee cup turns empty, you are ready to use the freshly set up bspwm environment.
 
 # Showcase
+**You can have a look on these pics, read this documentation before installing this dotfile**
+## Melissa
+
+#### Desktop
+<img src="assets/melissa/desktop.png" alt="desktop" >
+#### Alacritty
+<img src="assets/melissa/alacritty.png" alt="alacritty" >
+#### Caja File Manager
+<img src="assets/melissa/caja.png" alt="caja" >
+#### Thunar File Manager
+<img src="assets/melissa/thunar.png" alt="thunar" >
+#### Cmatrix in Desktop
+<img src="assets/melissa/cmatrix.png" alt="cmatrix" >
+#### Terminal on Caja
+<img src="assets/melissa/cajaterminal.png" alt="term_on_caja" >
+#### Tiled Terminals
+<img src="assets/melissa/tiledterminals.png" alt="tiledterminals" >
+#### Obsidian Interface
+<img src="assets/melissa/obsidian.png" alt="obsidian" >
+#### Vicinae Launcher
+<img src="assets/melissa/vicinae-launcher.png" alt="vicinae launcher" >
+#### Vicinae Wifi
+<img src="assets/melissa/vicinae-wifi.png" alt="vicinae wifi" >
+#### Weather
+<img src="assets/melissa/weather.png" alt="weather" >
+#### AUR Package Searcher
+<img src="assets/melissa/aursearcher.png" alt="aur searcher" >
+#### Open Windows
+<img src="assets/melissa/openwindows.png" alt="open windows" >
+#### Clipboard Manager
+<img src="assets/melissa/clipboard-manager.png" alt="clipboard manager" >
+#### Music Player
+<img src="assets/melissa/music.png" alt="music" >
+#### Rofi Switchers
+<img src="assets/melissa/rofi-theme.png" alt="rofi-theme" >
+<img src="assets/melissa/rofi-icon.png" alt="rofi-icon" >
+<img src="assets/melissa/rofi-htb.png" alt="rofi-htb" >
