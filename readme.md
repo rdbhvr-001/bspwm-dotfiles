@@ -59,37 +59,37 @@ Once your coffee cup turns empty, you are ready to use the freshly set up bspwm 
 **You can have a look on these pics, read this documentation before installing this dotfile**
 ## Melissa
 
-#### Desktop
+### Desktop
 <img src="assets/melissa/desktop.png" alt="desktop" >
-#### Alacritty
+### Alacritty
 <img src="assets/melissa/alacritty.png" alt="alacritty" >
-#### Caja File Manager
+### Caja File Manager
 <img src="assets/melissa/caja.png" alt="caja" >
-#### Thunar File Manager
+### Thunar File Manager
 <img src="assets/melissa/thunar.png" alt="thunar" >
-#### Cmatrix in Desktop
+### Cmatrix in Desktop
 <img src="assets/melissa/cmatrix.png" alt="cmatrix" >
-#### Terminal on Caja
+### Terminal on Caja
 <img src="assets/melissa/cajaterminal.png" alt="term_on_caja" >
-#### Tiled Terminals
+### Tiled Terminals
 <img src="assets/melissa/tiledterminals.png" alt="tiledterminals" >
-#### Obsidian Interface
+### Obsidian Interface
 <img src="assets/melissa/obsidian.png" alt="obsidian" >
-#### Vicinae Launcher
+### Vicinae Launcher
 <img src="assets/melissa/vicinae-launcher.png" alt="vicinae launcher" >
-#### Vicinae Wifi
+### Vicinae Wifi
 <img src="assets/melissa/vicinae-wifi.png" alt="vicinae wifi" >
-#### Weather
+### Weather
 <img src="assets/melissa/weather.png" alt="weather" >
-#### AUR Package Searcher
+### AUR Package Searcher
 <img src="assets/melissa/aursearcher.png" alt="aur searcher" >
-#### Open Windows
+### Open Windows
 <img src="assets/melissa/openwindows.png" alt="open windows" >
-#### Clipboard Manager
+### Clipboard Manager
 <img src="assets/melissa/clipboard-manager.png" alt="clipboard manager" >
-#### Music Player
+### Music Player
 <img src="assets/melissa/music.png" alt="music" >
-#### Rofi Switchers
+### Rofi Switchers
 <img src="assets/melissa/rofi-theme.png" alt="rofi-theme" >
 <img src="assets/melissa/rofi-icon.png" alt="rofi-icon" >
 <img src="assets/melissa/rofi-htb.png" alt="rofi-htb" >
