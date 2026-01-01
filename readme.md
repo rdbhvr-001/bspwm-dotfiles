@@ -188,3 +188,179 @@ Once your coffee cup turns empty, you are ready to use the freshly set up bspwm 
 <img src="assets/cristina/rofi-theme.png" alt="rofi-theme" >
 <img src="assets/cristina/rofi-icon.png" alt="rofi-icon" >
 <img src="assets/cristina/rofi-htb.png" alt="rofi-htb" >
+
+# Keybindings
+
+Below given is a list of keybindings which is mandatory for the user to know if you live in keyboard.
+I have included most of the keybindings here. Additionally you can include other keybindings or edit the keybindings in `sxhkdrc`, feel free to add yours.
+**[NOTE]** : Vicinae deeplinks are a good way to speed up your workflow. You can see it in the bottom of the sxhkdrc file. To have a glimpse of the keybindings now and then, you can alias it.
+
+```
+echo "alias keybindings='cat ~/.config/bspwm/sxhkdrc'" >> ~/.zshrc
+```
+
+Now you can press `super + shift + return` to open the terminal, `keybindings` to see the hotkeys.
+
+### Terminals
+
+- `super + Return`  
+  Notify + open alacritty fullscreen (warning message)  
+  Command: `notify-send ... && alacritty`
+
+- `super + shift + Return`  
+  Notify + open alacritty floating  
+  Command: `notify-send ... && bspterm --float`
+
+- `super + alt + Return`  
+  Open terminal fullscreen  
+  Command: `bspterm --full`
+
+- `ctrl + alt + t`  
+  Open kitty  
+  Command: `kitty`
+
+---
+
+### Applications
+
+- `super + shift + w` → Launch Firefox  
+- `super + shift + e` → Launch Geany  
+  Command: `{firefox,geany}` via sxhkd brace expansion style [web:1]
+
+- `ctrl + alt + v` → Open Vim in alacritty (custom config)  
+- `ctrl + alt + r` → Open Ranger in alacritty (custom config)  
+- `ctrl + alt + h` → Open btop in alacritty (custom config)
+
+- `super + p` → Color Picker (`bspcolorpicker`)  
+- `ctrl + alt + m` → Music (`bspmusic`)  
+- `super + l` → Lockscreen (`betterlockscreen --lock`)
+
+---
+
+### System keys (utils)
+
+- `XF86MonBrightnessUp` / `XF86MonBrightnessDown`  
+  Brightness control (`bspbrightness --inc/--dec`)
+
+- `XF86AudioRaiseVolume` / `XF86AudioLowerVolume`  
+  Speaker volume (`bspvolume --inc/--dec`)
+
+- `XF86AudioMute` / `XF86AudioMicMute`  
+  Toggle speaker mute / toggle mic mute (`bspvolume --toggle/--toggle-mic`)
+
+- `XF86AudioNext` / `XF86AudioPrev` / `XF86AudioPlay` / `XF86AudioStop`  
+  Music control via `mpc next/prev/toggle/stop`
+
+---
+
+## bspwm
+
+### Window actions
+
+- `F8` → Hide/Unhide window (`bspwinmask`)
+- `super + c` → Close app (`bspc node -c`)
+- `super + shift + c` → Kill app (`bspc node -k`)
+- `ctrl + alt + Escape` → Notify + `xkill`
+
+### Session actions
+
+- `ctrl + shift + q` → Notify + sleep 5 + quit (`bspc quit`)
+- `ctrl + shift + r` → Notify + sleep 5 + restart wm (`bspc wm -r`)
+- `super + Escape` → Notify + reload sxhkd (`pkill -USR1 -x sxhkd`) [web:1]
+
+---
+
+### Workspaces/desktops
+
+- `ctrl + alt + Left` / `ctrl + alt + Right`  
+  Switch workspace prev/next local (`bspc desktop -f prev.local/next.local`)
+
+- `super + 1..8`  
+  Switch workspace to desktop 1–8
+
+- `super + shift + 1..8`  
+  Send focused node to desktop 1–8 and follow (`--follow`) [web:1]
+
+- `super + ctrl + shift + Left` / `super + ctrl + shift + Right`  
+  Send focused node to prev/next desktop and follow
+
+---
+
+### Focus / swap / move / resize
+
+- `super + Left/Down/Up/Right` → Focus node west/south/north/east  
+- `super + shift + Left/Down/Up/Right` → Swap nodes west/south/north/east
+
+- `super + alt + shift + Left/Down/Up/Right`  
+  Move floating windows by 20px steps
+
+- `super + control + Left/Right/Up/Down`  
+  Expand window edge by 20px steps
+
+- `super + alt + Left/Right/Up/Down`  
+  Shrink window edge by 20px steps
+
+---
+
+### Split / ratio / layout / modes
+
+- `super + h` → Preselect split south  
+- `super + v` → Preselect split east  
+- `super + q` → Cancel preselect
+
+- `super + ctrl + 1..9` → Preselect ratio 0.1–0.9
+
+- `F9` → Toggle Layout (tiled/monocle) next
+- `F10` → Toggle fullscreen
+- `F11` → Toggle between floating & tiled
+- `F12` → Toggle pseudo tiled & tiled mode
+
+- `super + ctrl + m` → Marked flag
+- `super + ctrl + x` → Locked flag
+- `super + ctrl + y` → Sticky flag
+- `super + ctrl + z` → Private flag
+
+- `alt + Tab` → Focus next window (including floating)  
+- `alt + shift + Tab` → Focus previous window
+
+- `super + Tab` → Focus last node
+- `super + grave` → Focus last desktop
+
+---
+
+## Screenshots
+
+- `Print` → Screenshot now (`bspscreenshot --now`)
+- `alt + Print` → Screenshot in 5 sec (`bspscreenshot --in5`)
+- `shift + Print` → Screenshot in 10 sec (`bspscreenshot --in10`)
+- `ctrl + Print` → Screenshot active window (`bspscreenshot --win`)
+- `super + Print` → Screenshot area (`bspscreenshot --area`)
+
+---
+
+## Custom-made
+
+- `F1` → Caja
+- `super + space` → `vicinae toggle`
+
+- `super + i` → Toggle notification center  
+  Command: `kill -s USR1 $(pidof deadd-notification-center)`
+
+- `super + x` → Clipboard history (vicinae deeplink)
+- `super + a` → Search Arch packages (vicinae deeplink)
+- `super + w` → Weather (vicinae deeplink)
+- `super + n` → `vicinae-wifi`
+- `super + o` → Switch windows (vicinae deeplink)
+
+---
+
+## Power management
+
+- `alt + Delete + s` → Poweroff (`systemctl poweroff`)
+- `alt + Delete + r` → Reboot (`systemctl reboot`)
+- `alt + Delete + l` → Quit bspwm (`bspc quit`)
+
+# Conclusion
+It is up to you to choose whether or not to use this dofile. If you like my work, you can **give it a star**, or contribute to my dotfiles by opening a pull request.
+If you encounter some issues, you can open and discuss it in **issues** of this repo.
+**Want to know more about me?** https://rdbhvr-001.github.io/
