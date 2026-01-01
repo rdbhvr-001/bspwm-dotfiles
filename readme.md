@@ -360,6 +360,16 @@ Now you can press `super + shift + return` to open the terminal, `keybindings` t
 - `alt + Delete + r` → Reboot (`systemctl reboot`)
 - `alt + Delete + l` → Quit bspwm (`bspc quit`)
 
+# Switching Rice
+I use a cli rice switcher for the purpose of switch rices.
+To switch a rice, open your terminal, type :
+
+```
+rice_help
+```
+
+It will show you the help, follow as instructed.
+
 # Conclusion
 It is up to you to choose whether or not to use this dofile. If you like my work, you can **give it a star**, or contribute to my dotfiles by opening a pull request.
 If you encounter some issues, you can open and discuss it in **issues** of this repo.

@@ -16,22 +16,22 @@ else
 fi
 
 echo ""
-sleep 2
+sleep 3
 echo "[+] Backing up your old config to $HOME/config.old |----------------------------------------------------"
 echo ""
-cp -r ~/.config ~/config.old
+mv ~/.config ~/config.old
 echo ""
-sleep 2
+sleep 3
 echo "[+] Copying the configs to $HOME/.config |-----------------------------------------------------------------"
 echo ""
-cp -r .config/* ~/.config/
+cp -r .config/ ~/.config/
 echo ""
-sleep 2
+sleep 3
 echo "[+] Copying the required binaries to ~/.local/bin |----------------------------------------------------------"
 echo ""
 cp -r $LOCAL/bin/* ~/$LOCAL/bin/
 echo ""
-sleep 2
+sleep 3
 echo "[+] Setting up the rice manager for bspwm |-----------------------------------------------------------------"
 echo "[NOTE] This is a fully cli manager.."
 echo ""
@@ -42,7 +42,7 @@ echo "source ~/.rices/current-rice" >> ~/.zshrc
 echo "source ~/.rices/rice-functions.zsh" >> ~/.zshrc
 echo "[+] Reloading your zshrc config..."
 source ~/.zshrc
-sleep 2
+sleep 3
 echo "[+] Switching to melissa rice..."
 switch_rice melissa
 
