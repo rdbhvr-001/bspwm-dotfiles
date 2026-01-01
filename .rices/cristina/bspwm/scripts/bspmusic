@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2025 Aditya Shakya <adi1090x@gmail.com>
+
+##################################################
+# RDBHVR - 2026
+##################################################
 ##
 ## Run ncmpcpp with alternate config
 
@@ -9,6 +12,6 @@ DIR="$HOME/.config/bspwm"
 
 CONFIG="$DIR/alacritty/alacritty.toml"
 
-alacritty --class 'Music,Music' --config-file "$CONFIG" \
-		  -o window.dimensions.columns=105 window.dimensions.lines=22 \
-		  -e ~/.ncmpcpp/scripts/ncmpcpp-art
+(alacritty --class 'Music,Music' -o window.dimensions.columns=105 window.dimensions.lines=10 "window.position={ x = 250, y = 500 }" -e cava &) && (alacritty --class 'Music,Music' --config-file "$CONFIG" \
+		  -o window.dimensions.columns=105 window.dimensions.lines=22 "window.position={ x = 250, y = 50 }"\
+		  -e ~/.ncmpcpp/scripts/ncmpcpp-art &)
