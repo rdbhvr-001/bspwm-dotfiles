@@ -124,3 +124,67 @@ Once your coffee cup turns empty, you are ready to use the freshly set up bspwm 
 <img src="assets/melissa/rofi-theme.png" alt="rofi-theme" >
 <img src="assets/melissa/rofi-icon.png" alt="rofi-icon" >
 <img src="assets/melissa/rofi-htb.png" alt="rofi-htb" >
+
+## Cristina
+
+### Desktop
+
+<img src="assets/cristina/desktop.png" alt="desktop" >
+
+### Alacritty
+
+<img src="assets/cristina/alacritty.png" alt="alacritty" >
+
+### Caja File Manager
+
+<img src="assets/cristina/caja.png" alt="caja" >
+
+### Thunar File Manager
+
+<img src="assets/cristina/thunar.png" alt="thunar" >
+
+### Cmatrix in Desktop
+
+<img src="assets/cristina/cmatrix.png" alt="cmatrix" >
+
+### Terminal on Caja
+
+<img src="assets/cristina/cajaterminal.png" alt="term_on_caja" >
+
+### Tiled Terminals
+
+<img src="assets/cristina/tiledterminals.png" alt="tiledterminals" >
+
+### Vicinae Launcher
+
+<img src="assets/cristina/vicinae-launcher.png" alt="vicinae launcher" >
+
+### Vicinae Wifi
+
+<img src="assets/cristina/vicinae-wifi.png" alt="vicinae wifi" >
+
+### Weather
+
+<img src="assets/cristina/weather.png" alt="weather" >
+
+### AUR Package Searcher
+
+<img src="assets/cristina/aursearcher.png" alt="aur searcher" >
+
+### Open Windows
+
+<img src="assets/cristina/openwindows.png" alt="open windows" >
+
+### Clipboard Manager
+
+<img src="assets/cristina/clipboard-manager.png" alt="clipboard manager" >
+
+### Music Player
+
+<img src="assets/cristina/music.png" alt="music" >
+
+### Rofi Switchers
+
+<img src="assets/cristina/rofi-theme.png" alt="rofi-theme" >
+<img src="assets/cristina/rofi-icon.png" alt="rofi-icon" >
+<img src="assets/cristina/rofi-htb.png" alt="rofi-htb" >
